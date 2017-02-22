@@ -33,3 +33,7 @@ Diagrams help you understand whether certain nodes/branches are reachable or not
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 result of merging is to include latest changes from both branches into one single branch. it's a useful tool to combine the efforts done on several branches. drawing it allows you to understand what exactly are you merging and the impact of that merge on the history, unreachable branches, discarded changes..etc.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merging does the dummy work automatically and alarm you for conflicts that you need to focus on, instead of auditing the whole files. problem with it, is that it's not smart enough to conclude about the conflicts, but at least it narrows it down pretty well
