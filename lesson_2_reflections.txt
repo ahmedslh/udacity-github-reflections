@@ -29,3 +29,7 @@ Branches allow you to test scenarios without impacting the original branch. so y
 How do the diagrams help you visualize the branch structure?
 
 Diagrams help you understand whether certain nodes/branches are reachable or not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+result of merging is to include latest changes from both branches into one single branch. it's a useful tool to combine the efforts done on several branches. drawing it allows you to understand what exactly are you merging and the impact of that merge on the history, unreachable branches, discarded changes..etc.
