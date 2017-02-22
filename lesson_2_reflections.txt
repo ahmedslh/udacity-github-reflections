@@ -18,3 +18,14 @@ nothing added to commit but untracked files present (use "git add" to track)
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area is more of a place to store the files that are being tracked for changes, it caches the file somewhere so when commit is executed it stores the differences in the git repo metadata to be tracked by git diff?
+
+How can you use the staging area to make sure you have one commit per logical change?
+when you commit, you commit the changes in the staging area to working directory. you can check the staging area for files that are modified, you can also check use git diff --stage to see if changes are related to one logical change or not.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow you to test scenarios without impacting the original branch. so you can easily differentiate between what was done for testing a certain scenario and what is required for the original program
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you understand whether certain nodes/branches are reachable or not.
