@@ -18,7 +18,7 @@ clones are used when you copy repo from github to local directory or when you wa
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+This would be specially important when collaborating with others, i would say with growing differences, it may be hard to take a decision about the differences.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
