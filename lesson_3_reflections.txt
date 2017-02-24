@@ -23,9 +23,9 @@ This would be specially important when collaborating with others, i would say wi
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+That would be really hard. we'll need to maintain manual version control table where each one need to document clearly what he did. someone should
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+When testing a new feature or scenario before incorporating to master directly. it's a longer process but guarantees that tests are being done away from production software 
